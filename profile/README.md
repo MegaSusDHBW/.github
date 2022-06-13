@@ -47,3 +47,7 @@ Die Applikation wurde mit Expo erstellt, hierzu einfach den QR-Code scannen in d
 
 ### Informationen:
 Die 2-Faktor-Authentifizierung über SMS konnte nicht implementiert werden, da pro SMS bereits nicht-geringe Kosten anfallen. Auch um Spam zu vermeiden, wurde entschieden, die 2-Faktor-Authentifizierung nicht zu veröffentlichen. Im aktuellen Stand ist bisher auch noch das Lesen und Schreiben auf einen NFC-Chip nicht implementiert.
+
+### Schaubild zur Datenverschlüsselung im QR-Code
+![verschlüsselung (1)](https://user-images.githubusercontent.com/67149095/173415495-07aadb3a-def7-4eb1-884a-522201e611d5.jpg)
+Jeder User bekommt beim ersten Login einen LocalKey erstellt. Dieser wird verschlüsselt, durch den GlobalKey, in die Datenbank geschrieben. Beim QR-Code-Erstellen wird der verschlüsselte QR-Code aus der Datenbank gelesen und mit dem GlobalKey entschlüsselt. Mit Hilfe des entschlüsselten LocalKey werden die Daten des Anwenders verschlüsselt und in einen QR Code umgewandelt.  
