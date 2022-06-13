@@ -4,6 +4,11 @@
 Projekt "RescueMe" im Rahmen der Vorlesung Entwicklung mobiler Applikationen an der DHBW Stuttgart Campus Horb.
 #### Projektmitglieder
 Marius Armbruster, Jakub Cielecki, Robin Herrmann, Simon Meltzer, Nico Riedlinger, Kevin Schock, Lukas Sieber
+
+Die primäre Aufteilung war dabei wie folgt:
+##### Frontend: Simon Meltzer, Nico Riedlinger, Lukas Sieber
+##### Backend: Marius Armbruster, Robin Herrmann, Kevin Schock
+
 #### Hintergrund
 App zur Verwaltung personenbezogener Gesundheitsdaten wie bspw. Name, Blutgruppe, Organspendestatus, Notfallkontakt, Vorerkrankungen, Allergien, Impfstatus, … und Auslesen dieser über QR-Code oder NFC-Chip
 ## Ausführen der Applikation
