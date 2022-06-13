@@ -50,4 +50,4 @@ Die 2-Faktor-Authentifizierung über SMS konnte nicht implementiert werden, da p
 
 ### Schaubild zur Datenverschlüsselung im QR-Code
 ![verschlüsselung (1)](https://user-images.githubusercontent.com/67149095/173415495-07aadb3a-def7-4eb1-884a-522201e611d5.jpg)\
-Jeder User bekommt beim ersten Login einen LocalKey erstellt. Dieser wird verschlüsselt, durch den GlobalKey, in die Datenbank geschrieben. Beim QR-Code-Erstellen wird der verschlüsselte QR-Code aus der Datenbank gelesen und mit dem GlobalKey entschlüsselt. Mit Hilfe des entschlüsselten LocalKey werden die Daten des Anwenders verschlüsselt und in einen QR Code umgewandelt.  
+Jeder Anwender bekommt beim ersten Login einen LocalKey erstellt. Dieser wird verschlüsselt, durch den GlobalKey, in die Datenbank geschrieben. Beim QR-Code-Erstellen wird der verschlüsselte QR-Code aus der Datenbank gelesen und mit dem GlobalKey entschlüsselt. Mit Hilfe des entschlüsselten LocalKey werden die Daten des Anwenders verschlüsselt und in einen QR Code umgewandelt.  
