@@ -4,16 +4,20 @@
 Projekt "RescueMe" im Rahmen der Vorlesung Entwicklung mobiler Applikationen an der DHBW Stuttgart Campus Horb.
 #### Projektmitglieder
 Marius Armbruster, Jakub Cielecki, Robin Herrmann, Simon Meltzer, Nico Riedlinger, Kevin Schock, Lukas Sieber
-
-Die primäre Aufteilung war dabei wie folgt:
-##### Frontend: Simon Meltzer, Nico Riedlinger, Lukas Sieber
-##### Backend: Marius Armbruster, Robin Herrmann, Kevin Schock
-
 #### Hintergrund
 App zur Verwaltung personenbezogener Gesundheitsdaten wie bspw. Name, Blutgruppe, Organspendestatus, Notfallkontakt, Vorerkrankungen, Allergien, Impfstatus, … und Auslesen dieser über QR-Code oder NFC-Chip
 ## Ausführen der Applikation
+### Die eigentliche App für Benutzer:
 ![QR Code](https://qr.expo.dev/expo-go?owner=simonmeltzer&slug=RescueMe&releaseChannel=default&host=exp.host)
 * https://expo.dev/@simonmeltzer/RescueMe
+
+### Die App für Sanitäter:
+![QR Code](https://qr.expo.dev/expo-go?owner=simonmeltzer&slug=RescueMeScanner&releaseChannel=default&host=exp.host)
+* https://expo.dev/@simonmeltzer/RescueMeScanner
+
+Die Idee: Sanitäter müssen sich zunächst verifizieren, da mit dieser App personenbezogene Daten ausgelesen werden können. Die Scanner-App ist daher wirklich nur für Ersthelfer / Sanitäter gedacht. Die Evaluation wird hierbei vom RescueMe-Team vorgenommen.\
+@Torsten: Die Zugangsdaten für die Sanitäter-App erhälst du per Mail.
+
 Die Applikation wurde mit Expo erstellt, hierzu einfach den QR-Code scannen in der Expo-App.
 
 ## App-Kriterien
